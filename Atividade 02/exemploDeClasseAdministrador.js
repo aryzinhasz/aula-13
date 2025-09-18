@@ -19,10 +19,10 @@ var Administrador = /** @class */ (function () {
     return Administrador;
 }());
 // Criando objeto
-var admin = new Administrador("Carlos", "1234");
+var admin = new Administrador("Aryelle", "1234");
 // Acessando métodos
 admin.mostrarInfo();
 // Tentando acessar diretamente (vai dar erro!)
-// admin.alterarSenha("novaSenha"); ❌ (não permitido, pois é private)
+// admin.alterarSenha("novaSenha"); (não permitido, pois é private)
 // Acessando indiretamente pelo método público
 admin.solicitarAlteracaoSenha("novaSenha123");
