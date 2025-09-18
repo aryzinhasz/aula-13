@@ -1,0 +1,3 @@
+O método useModule() é protected, ou seja, só pode ser usado dentro da classe Package ou em suas subclasses, como Server. 
+Isso exemplifica encapsulamento, que protege detalhes internos da classe, e herança, que permite que subclasses reutilizem a lógica sem expor métodos ao exterior. 
+Juntos, esses conceitos garantem segurança, clareza e reutilização de código.
